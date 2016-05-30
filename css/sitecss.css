@@ -1,0 +1,245 @@
+body{
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+div.table_left{
+	background-color:rgba(229,172,250,0.6);
+	width: 20%;
+	margin-left: 8%;
+	margin-top: 15%;
+}
+
+div.table_left p{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+}
+
+div.table_left li{
+	margin: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.table_left ul{
+	margin: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.lowNav ul {
+	  list-style: none;
+	  margin: 10px;
+	  padding: 0;
+}
+.highNav nav li {
+	  display: inline-block;
+	  margin: 0 5px;
+	  -webkit-transition: all 0.3s;
+	  -moz-transition: all 0.3s;
+	  -o-transition: all 0.3s;
+	  transition: all 0.3s;
+}
+.highNav nav a {
+	  color: black;
+	  -webkit-transition: all 0.3s;
+	  -moz-transition: all 0.3s;
+	  -o-transition: all 0.3s;
+	  transition: all 0.3s;
+	  text-decoration: none;
+}
+.highNav nav a:hover {
+		color: #12242d;
+}
+.highNav nav span {
+		display: block;
+		color: rgba(255,255,255,0.6);
+}
+.highNav nav a:hover {
+		color: #12242d;
+}
+.highNav ul li:hover ul{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+.highNav ul li ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+.highNav ul li ul li{
+	display: block;
+
+}
+.highNav ul ul a{
+	color: white;
+}
+.highNav footer{
+	text-align: left;
+ 	top: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.Inav ul {
+	list-style: none;
+	margin-top: 20%;
+	padding: 0;
+ 	top: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.Inav nav ul li {
+	  display: inline-block;
+	  margin: 0 5px;
+	  -webkit-transition: all 0.3s;
+	  -moz-transition: all 0.3s;
+	  -o-transition: all 0.3s;
+	  transition: all 0.3s;
+}
+.Inav nav a {
+	  color: black;
+	  position: block
+	  -webkit-transition: all 0.3s;
+	  -moz-transition: all 0.3s;
+	  -o-transition: all 0.3s;
+	  transition: all 0.3s;
+	  text-decoration: none;
+}
+.Inav nav a:hover {
+		color: #12242d;
+}
+.Inav nav span {
+		color: rgba(255,255,255,0.6);
+}
+
+.Inav ul li:hover ul{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+.Inav ul li ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+.Inav ul li ul li{
+	display: block;
+
+}
+.Inav ul ul a{
+	color: white;
+}
+
+nav li{
+	position: relative;
+}
+
+div.alb1{
+	background-color:rgba(0,0,0,0.6);
+	width: 20%;
+	float: left;
+	margin-left: 3%;
+	clear: both;
+	margin-top: 165px;
+	color: white;
+}
+
+div.alb1 p{
+	list-style: none;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+}
+
+div.alb1 ol li{
+	margin: 5px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+div.alb1 ol{
+	margin: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+div.alb2{
+	background-color:rgba(0,0,0,0.6);
+	width: 20%;
+	margin-left: 39%;
+	position: absolute;
+	margin-top: 165px;
+	color: white;
+}
+
+div.alb2 p{
+	list-style: none;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+}
+
+div.alb2 ol li{
+	margin: 5px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+div.alb2 ol{
+	margin: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+div.alb3{
+	background-color:rgba(0,0,0,0.6);
+	width: 20%;
+	margin-left: 76%;
+	position: absolute;
+	margin-top: 165px;
+	color: white;
+}
+
+div.alb3 p{
+	list-style: none;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+}
+
+div.alb3 ol li{
+	margin: 5px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+div.alb3 ol{
+	margin: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+audio{
+	width: 250px;
+}
